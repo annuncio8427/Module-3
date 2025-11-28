@@ -13,7 +13,7 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 
-
+```python
 
 s = "google"
 rev = s[::-1]
@@ -22,11 +22,11 @@ if s == rev:
     print("Palindrome")
 else:
     print("Not Palindrome")
-
+```
 
 ## Output
-
+```python
 Not Palindrome
-
+```
 ## Result
 Thus, the Python program successfully checks whether the string "google" is a palindrome without using built-in functions.
